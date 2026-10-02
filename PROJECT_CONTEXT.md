@@ -7,6 +7,7 @@
 - The repository `scy2004/scy2004.github.io` still did not exist when rechecked on 2026-10-01.
 - The original placeholder design and plan are superseded by the research-homepage V1 design.
 - The research-homepage V1 design is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.md` and is awaiting user review.
+- A complete Chinese review copy is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.zh-CN.md`; user edits to this review copy should be synchronized back to the English specification before implementation.
 - The user supplied public identity, affiliation, research, email, GitHub, portrait, and resume facts.
 - The user confirmed the three named works are not under double-blind anonymity and may be shown publicly as `Under Review`.
 
