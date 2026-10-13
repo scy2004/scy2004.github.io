@@ -4,12 +4,15 @@
 
 - GitHub account: `scy2004`.
 - Target public URL: `https://scy2004.github.io/`.
-- The repository `scy2004/scy2004.github.io` still did not exist when rechecked on 2026-10-01.
+- The public repository `https://github.com/scy2004/scy2004.github.io` was created and the site was published from the `main` branch on 2026-10-13.
+- GitHub Pages reports `built`; the public URL returns HTTP 200 and contains the verified name and primary research direction.
 - The original placeholder design and plan are superseded by the research-homepage V1 design.
-- The research-homepage V1 design is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.md` and was approved for implementation by the user's instruction to create and publish the site on 2026-10-13.
+- The research-homepage V1 design is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.md` and has been implemented.
 - A complete Chinese review copy is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.zh-CN.md`; user edits to this review copy should be synchronized back to the English specification before implementation.
 - The user supplied public identity, affiliation, research, email, GitHub, portrait, and resume facts.
 - The user confirmed the three named works are not under double-blind anonymity and may be shown publicly as `Under Review`.
+- The outdoor portrait's temporary attachment path expired before implementation. V1 uses the unaltered 480x560 formal portrait embedded in the supplied resume; it can be replaced later without layout changes.
+- Six Node contract tests pass. Browser QA passed at 1440px, 390px, and 320px with no horizontal page overflow, broken images, or console errors.
 
 ## Key decisions
 
@@ -23,6 +26,7 @@
 
 ## Next steps
 
-1. Execute `docs/superpowers/plans/2026-10-13-ai-researcher-homepage-v1.md`.
-2. Build and verify the static page.
-3. Create the GitHub repository, push the site, enable or verify Pages, and confirm the public URL.
+1. Collect complete publication metadata and public paper, code, or project links when available.
+2. Replace `assets/profile.jpg` if the user prefers the original outdoor portrait.
+3. Add a detailed LINs Lab role and date range when supplied.
+4. Consider a bilingual version and custom domain in a later phase.
