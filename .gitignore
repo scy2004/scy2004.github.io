@@ -1,0 +1,6 @@
+# Local scratch output
+tmp/
+
+# Local preview and platform files
+.DS_Store
+Thumbs.db

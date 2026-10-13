@@ -6,7 +6,7 @@
 - Target public URL: `https://scy2004.github.io/`.
 - The repository `scy2004/scy2004.github.io` still did not exist when rechecked on 2026-10-01.
 - The original placeholder design and plan are superseded by the research-homepage V1 design.
-- The research-homepage V1 design is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.md` and is awaiting user review.
+- The research-homepage V1 design is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.md` and was approved for implementation by the user's instruction to create and publish the site on 2026-10-13.
 - A complete Chinese review copy is recorded in `docs/superpowers/specs/2026-10-02-ai-researcher-homepage-v1-design.zh-CN.md`; user edits to this review copy should be synchronized back to the English specification before implementation.
 - The user supplied public identity, affiliation, research, email, GitHub, portrait, and resume facts.
 - The user confirmed the three named works are not under double-blind anonymity and may be shown publicly as `Under Review`.
@@ -23,7 +23,6 @@
 
 ## Next steps
 
-1. Obtain user review of the research-homepage V1 specification.
-2. Write a replacement implementation plan for the approved V1 design.
-3. Build and verify the static page.
-4. Create the GitHub repository, push the site, enable or verify Pages, and confirm the public URL.
+1. Execute `docs/superpowers/plans/2026-10-13-ai-researcher-homepage-v1.md`.
+2. Build and verify the static page.
+3. Create the GitHub repository, push the site, enable or verify Pages, and confirm the public URL.
