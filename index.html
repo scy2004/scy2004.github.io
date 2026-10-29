@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Chengyi Sun is an AI researcher studying recursive self-improvement, long-horizon agents, multimodal interaction, and vision-language model post-training.">
+    <meta name="description" content="Chengyi Sun researches multimodal generation and interaction, code world models, and judgment and self-improvement in long-horizon agents.">
     <meta name="theme-color" content="#f5efe5">
     <meta property="og:title" content="Chengyi Sun — AI Researcher">
-    <meta property="og:description" content="Research on recursive self-improvement, long-horizon agents, multimodal interaction, and vision-language model post-training.">
+    <meta property="og:description" content="Multimodal generation and interaction, code world models, and judgment and self-improvement in long-horizon agents.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scy2004.github.io/">
-    <meta property="og:image" content="https://scy2004.github.io/assets/profile.jpg">
+    <meta property="og:image" content="https://scy2004.github.io/assets/profile.jpg?v=20261029">
     <title>Chengyi Sun — AI Researcher</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20261029">
   </head>
   <body id="top">
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -26,7 +26,8 @@
         <nav class="nav-links" aria-label="Sections">
           <a href="#about">About</a>
           <a href="#research">Research</a>
-          <a href="#work">Selected Work</a>
+          <a href="#work">Papers</a>
+          <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
         </nav>
         <a class="header-email" href="mailto:shengminmail@163.com">Email <span aria-hidden="true">↗</span></a>
@@ -39,9 +40,9 @@
           <p class="eyebrow">AI Researcher · Beijing, China</p>
           <h1 id="hero-title">Chengyi <em>Sun</em></h1>
           <p class="chinese-name" lang="zh-CN">孙成一</p>
-          <p class="hero-role">AI researcher working on recursive self-improvement and long-horizon agents.</p>
-          <p class="hero-statement">I study how AI systems can train, evaluate, and improve other AI systems—and how foundation models and simulators can co-evolve on shared infrastructure.</p>
-          <p class="affiliations">CASIA <span>·</span> LINs Lab, Westlake University</p>
+          <p class="hero-role">I study multimodal generation and interaction, code world models, and judgment and self-improvement in long-horizon agents.</p>
+          <p class="hero-statement">I connect real-time video generation, executable world states, and verifiable feedback to help AI systems generate, interact, judge, and improve.</p>
+          <p class="affiliations">CASIA <span>·</span> LINs Lab, Westlake University <span>·</span> Vidu</p>
           <div class="hero-actions" aria-label="Contact links">
             <a class="button button-primary" href="mailto:shengminmail@163.com">Get in touch <span aria-hidden="true">↗</span></a>
             <a class="button button-quiet" href="https://github.com/scy2004">GitHub <span aria-hidden="true">↗</span></a>
@@ -51,7 +52,7 @@
         <figure class="portrait-figure">
           <div class="portrait-frame">
             <span class="portrait-index" aria-hidden="true">01 / 01</span>
-            <img src="assets/profile.jpg" alt="Portrait of Chengyi Sun" width="480" height="560">
+            <img src="assets/profile.jpg?v=20261029" alt="Portrait of Chengyi Sun" width="1279" height="1708">
           </div>
           <figcaption>
             <span>Chengyi Sun</span>
@@ -63,65 +64,41 @@
       <section class="section about" id="about" aria-labelledby="about-title">
         <div class="section-heading">
           <p class="section-kicker">About / 01</p>
-          <h2 id="about-title">Building AI systems that can judge their own next move.</h2>
+          <h2 id="about-title">Generation, interaction, and self-improvement.</h2>
         </div>
-        <div class="about-grid">
-          <div class="about-copy">
-            <p class="lead">My research spans recursive self-improvement, long-horizon agents, real-time multimodal interaction, and vision-language model post-training.</p>
-            <p>I am especially interested in systems that improve not only what an agent can do, but also how it decides when to continue, verify, revise direction, or stop.</p>
-            <p>I conduct research with LINs Lab at Westlake University under the guidance of Prof. Tao Lin, and with the Institute of Automation, Chinese Academy of Sciences. My broader goal is to study how foundation models, simulators, and research infrastructure can support the continual improvement of AI systems.</p>
-          </div>
-          <aside class="about-aside" aria-label="Current research lens">
-            <p class="aside-label">Current lens</p>
-            <blockquote>Before asking an agent to act longer, ask whether it can judge better.</blockquote>
-            <dl>
-              <div>
-                <dt>Focus</dt>
-                <dd>Agent judgment &amp; self-improvement</dd>
-              </div>
-              <div>
-                <dt>Methods</dt>
-                <dd>Training · evaluation · infrastructure</dd>
-              </div>
-              <div>
-                <dt>Mentor</dt>
-                <dd>Prof. Tao Lin · LINs Lab</dd>
-              </div>
-            </dl>
-          </aside>
+        <div class="about-copy">
+          <p class="lead">My research focuses on multimodal generation and interaction, and on AI systems that can judge, verify, and continually improve.</p>
+          <p>I am especially interested in agentic real-time video generation and Code World Models: using executable code to represent scenes, objects, and events, and turning deviations in generated imagery into feedback that can be checked and localized. I also explore how infrastructure and harness design can support more natural real-time interaction.</p>
+          <p>For long-horizon agents, I study intermediate decisions and recursive self-improvement: how agents assess their state and direction, and when to continue, seek evidence, verify, change course, or stop. Building on CacheBridge, I also explore KV cache sharing across models in the same family with different parameter scales and post-training, its integration with agent harnesses, and how foundation models and agent-environment simulators can improve together on shared infrastructure.</p>
+          <p>I conduct long-term research at the Institute of Automation, Chinese Academy of Sciences. In 2026, I participated in summer research at LINs Lab, Westlake University, and collaborated with Shanghai AI Laboratory. I currently collaborate with Vidu (ShengShu Technology).</p>
         </div>
       </section>
 
       <section class="section research" id="research" aria-labelledby="research-title">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="section-kicker">Research agenda / 02</p>
-            <h2 id="research-title">Three connected questions.</h2>
-          </div>
-          <p>My work moves from how agents judge, to how they interact, to how multimodal models are trained after pretraining.</p>
+        <div class="section-heading">
+          <p class="section-kicker">Research interests / 02</p>
+          <h2 id="research-title">Three connected directions.</h2>
         </div>
 
         <div class="research-grid">
           <article class="research-card research-card-featured">
             <div class="card-topline">
               <span class="card-number">01</span>
-              <span class="card-tag">Primary direction</span>
+              <span class="card-tag">Generation</span>
             </div>
-            <h3>Judgment for Recursive Self-Improvement</h3>
-            <p class="research-question">How can long-horizon agents judge whether to continue, verify, revise direction, ask for help, or stop before taking further action?</p>
-            <p>I study reusable judgment procedures and host-integrated intervention loops that make intermediate decisions explicit and measurable. The goal is to improve an agent's direction and control before simply giving it more execution capacity.</p>
-            <p class="related-work"><span>Related</span> DIVE · bravejev-harness · jevbrave-research</p>
+            <h3>Multimodal Generation &amp; Interaction</h3>
+            <p class="research-keywords">Agentic real-time video · Code World Models · Code → generation → code feedback</p>
+            <p class="related-work"><span>Related</span> Building a benchmark</p>
           </article>
 
           <article class="research-card">
             <div class="card-topline">
               <span class="card-number">02</span>
-              <span class="card-tag">Interaction</span>
+              <span class="card-tag">Agents</span>
             </div>
-            <h3>Agentic Multimodal Interaction</h3>
-            <p class="research-question">How can generative models become adaptive agents that integrate video, audio, and evolving human context in real time?</p>
-            <p>I am interested in agentic generation, self-improving generative models, and interactive world models that can adapt their behavior across environments and tasks while reasoning about the next relevant human state or intent.</p>
-            <p class="related-work"><span>Related</span> Attachment-inspired social tendencies</p>
+            <h3>Long-Horizon Agents &amp; Self-Improvement</h3>
+            <p class="research-keywords">Judgment · Evidence seeking · Counterfactual credit · RSI</p>
+            <p class="related-work"><span>Related</span> DIVE · PCCC-RL</p>
           </article>
 
           <article class="research-card">
@@ -129,75 +106,116 @@
               <span class="card-number">03</span>
               <span class="card-tag">Post-training</span>
             </div>
-            <h3>Vision-Language Model Post-Training</h3>
-            <p class="research-question">How can post-training improve generation without weakening visual understanding, retrieval, and grounded reasoning?</p>
-            <p>I study the balance between understanding and generation in vision-language models, including training paths that connect seeing, search, and speaking in a unified system.</p>
-            <p class="related-work"><span>Related</span> CALLOSUM</p>
+            <h3>Post-Training &amp; Model Collaboration</h3>
+            <p class="research-keywords">VLM post-training · KV cache sharing · Model–simulator co-evolution</p>
+            <p class="related-work"><span>Related</span> CALLOSUM · CacheBridge · Building an RSI system</p>
           </article>
         </div>
       </section>
 
       <section class="section selected-work" id="work" aria-labelledby="work-title">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="section-kicker">Selected work / 03</p>
-            <h2 id="work-title">Work in progress.</h2>
-          </div>
-          <p>Current manuscripts are listed without unconfirmed venues or links. Details will be added as they become public.</p>
+        <div class="section-heading">
+          <p class="section-kicker">Papers / 03</p>
+          <h2 id="work-title">Selected papers &amp; manuscripts.</h2>
         </div>
 
         <div class="work-list">
-          <article class="work-item">
+          <article class="work-item" data-paper="dive">
             <div class="work-index">W.01</div>
             <div class="work-content">
-              <div class="work-meta"><span data-status="under-review">Under Review</span><span>Agents · Judgment · Evaluation</span></div>
+              <div class="work-meta"><span data-status="under-review">Under Review</span><span class="author-role">First author</span></div>
               <h3>DIVE: Making Judgment a First-Class Capability in Long-Horizon Agents</h3>
-              <p>A framework that represents reusable agent judgment as Cognitive Judgment Skills and connects them to execution through a Detect-Invoke-Verify loop, making intermediate decisions, implementation costs, and action consequences separately measurable.</p>
+              <p>A judgment-driven agent architecture for coding and autoresearch that functionally separates direction-setting from action generation, enabling agents to adjust their actions continuously using execution feedback.</p>
               <p class="systems">Related systems: <span>Bravehub · bravejev-harness · jevbrave-research</span></p>
             </div>
           </article>
 
-          <article class="work-item">
+          <article class="work-item" data-paper="callosum">
             <div class="work-index">W.02</div>
             <div class="work-content">
-              <div class="work-meta"><span data-status="under-review">Under Review</span><span>LLM Agents · Social Intelligence</span></div>
-              <h3>Attachment-Inspired Inherent Formation of Social Tendencies for LLM Agents</h3>
-              <p>An exploration of how attachment-inspired mechanisms can support the formation and adaptation of social tendencies in LLM agents.</p>
+              <div class="work-meta"><span data-status="under-review">Under Review</span><span class="author-role">Co-first author (listed second)</span></div>
+              <h3>CALLOSUM: One Path between Seeing, Search, and Speaking</h3>
+              <p>Connects visual understanding, search, and language generation to study the balance between retrieval and generation in vision-language model post-training.</p>
             </div>
           </article>
 
-          <article class="work-item">
+          <article class="work-item" data-paper="social-agents">
             <div class="work-index">W.03</div>
             <div class="work-content">
-              <div class="work-meta"><span data-status="under-review">Under Review</span><span>Vision-Language Models · Post-Training</span></div>
-              <h3>CALLOSUM: One Path between Seeing, Search, and Speaking</h3>
-              <p>A vision-language post-training study connecting visual understanding, search, and language generation while examining the balance between retrieval and generation.</p>
+              <div class="work-meta"><span data-status="in-revision">In Revision</span><span class="author-role">Co-first author (listed second)</span></div>
+              <h3>Attachment-Inspired Inherent Formation of Social Tendencies for LLM Agents</h3>
+              <p>Explores attachment-inspired mechanisms for how LLM agents form and adapt social tendencies through interaction. The focus is on personalized soul agents: understanding the mechanisms behind stable social orientations, user-specific adaptation, and relationship development over time.</p>
             </div>
+          </article>
+
+          <article class="work-item" data-paper="pccc-rl">
+            <div class="work-index">W.04</div>
+            <div class="work-content">
+              <div class="work-meta"><span data-status="under-review">Under Review</span><span class="author-role">Co-first author (listed second)</span></div>
+              <h3>Learning Which Evidence-Seeking Decisions Matter: Calibrated Counterfactual Replay for Language Agents</h3>
+              <p>Final-answer rewards obscure which evidence-seeking decisions helped. PCCC-RL replays chosen and feasible alternative actions from the same saved tool state. It predicts credit for every action and uses inverse-probability residual correction on a randomized replay subset, directing a cost-aware budget to checks that most improve the training signal. History-only alternatives align these comparisons with the learning objective, yielding calibrated reinforcement-learning feedback for correct answers with complete evidence chains.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ongoing-projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">Projects / 04</p>
+          <h2 id="projects-title">Ongoing research.</h2>
+        </div>
+        <div class="ongoing-list">
+          <article class="ongoing-item">
+            <div class="ongoing-index">P.01</div>
+            <h3>Building a Benchmark for the Missing Code-to-Generation Feedback Loop</h3>
+            <div class="ongoing-status">In Progress</div>
+          </article>
+          <article class="ongoing-item">
+            <div class="ongoing-index">P.02</div>
+            <h3>Building an Infrastructure Pipeline for Foundation Model–Simulator Co-Evolution</h3>
+            <div class="ongoing-status">In Progress</div>
           </article>
         </div>
       </section>
 
       <section class="section experience" id="experience" aria-labelledby="experience-title">
         <div class="section-heading">
-          <p class="section-kicker">Experience / 04</p>
+          <p class="section-kicker">Experience / 05</p>
           <h2 id="experience-title">Research across agents and multimodal learning.</h2>
         </div>
 
         <div class="timeline">
           <article class="timeline-item">
+            <p class="timeline-date">Present</p>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-role">Research Collaboration</p>
+              <h3>Vidu · ShengShu Technology</h3>
+              <p>Collaborative research on multimodal generation and interaction.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
             <p class="timeline-date">Nov 2025 — Present</p>
             <div class="timeline-marker" aria-hidden="true"></div>
             <div class="timeline-content">
-              <p class="timeline-role">Research Intern</p>
+              <p class="timeline-role">Research</p>
               <h3>Institute of Automation, Chinese Academy of Sciences</h3>
               <p>Research on long-horizon agents, multimodal agents, and agent evaluation.</p>
             </div>
           </article>
           <article class="timeline-item">
-            <p class="timeline-date">Jan 2026 — May 2026</p>
+            <p class="timeline-date">Summer 2026</p>
             <div class="timeline-marker" aria-hidden="true"></div>
             <div class="timeline-content">
-              <p class="timeline-role">Research Intern</p>
+              <p class="timeline-role">Summer Research</p>
+              <h3>LINs Lab, Westlake University</h3>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2026</p>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <p class="timeline-role">Research Collaboration</p>
               <h3>Shanghai AI Laboratory</h3>
               <p>Research on vision-language model adaptation and post-training.</p>
             </div>
@@ -231,7 +249,7 @@
 
       <section class="closing" aria-labelledby="closing-title">
         <p class="section-kicker">Open to research conversations</p>
-        <h2 id="closing-title">Interested in how agents learn to judge, adapt, and improve?</h2>
+        <h2 id="closing-title">Let's talk about systems that generate, interact, and improve.</h2>
         <a href="mailto:shengminmail@163.com">shengminmail@163.com <span aria-hidden="true">↗</span></a>
       </section>
     </main>

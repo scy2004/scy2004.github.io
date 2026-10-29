@@ -390,8 +390,7 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
-  filter: saturate(0.82) contrast(1.03);
+  object-position: center 55%;
 }
 
 .portrait-index {
@@ -465,7 +464,7 @@ h3 {
 }
 
 .about-copy {
-  max-width: 46rem;
+  max-width: 56rem;
   color: var(--muted);
 }
 
@@ -529,7 +528,7 @@ h3 {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 38rem;
+  min-height: 22rem;
   padding: clamp(1.4rem, 3vw, 2.2rem);
   border-left: 1px solid var(--line);
   transition: background 200ms ease, transform 200ms ease;
@@ -560,7 +559,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: clamp(4rem, 8vw, 7rem);
+  margin-bottom: 2rem;
 }
 
 .card-number {
@@ -578,7 +577,7 @@ h3 {
 .research-card h3 {
   margin-bottom: 1.5rem;
   font-family: var(--serif);
-  font-size: clamp(1.75rem, 2.8vw, 2.4rem);
+  font-size: clamp(1.55rem, 2.4vw, 2.1rem);
   font-weight: 400;
   line-height: 1.12;
 }
@@ -588,17 +587,17 @@ h3 {
   font-size: 0.86rem;
 }
 
-.research-card .research-question {
+.research-card .research-keywords {
   padding-top: 1.25rem;
   border-top: 1px solid var(--line);
   color: var(--ink);
-  font-weight: 660;
+  font-weight: 500;
 }
 
 .research-card .related-work {
   margin-top: auto;
   margin-bottom: 0;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   color: var(--ink);
   font-size: 0.72rem;
   font-weight: 640;
@@ -654,6 +653,19 @@ h3 {
   background: var(--acid);
 }
 
+.work-meta [data-status="in-revision"] {
+  padding: 0.25rem 0.55rem;
+  color: #704a21;
+  background: #eadbc6;
+}
+
+.work-meta .author-role {
+  color: var(--ink);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
 .work-content h3 {
   max-width: 39ch;
   margin-bottom: 1.15rem;
@@ -679,6 +691,42 @@ h3 {
 .systems span {
   color: var(--muted);
   font-weight: 500;
+}
+
+.ongoing-list {
+  border-top: 1px solid var(--line-strong);
+}
+
+.ongoing-item {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: start;
+  padding-block: 2.5rem;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.ongoing-index {
+  color: var(--accent);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+}
+
+.ongoing-item h3 {
+  margin-bottom: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.ongoing-status {
+  padding-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .timeline {
@@ -943,11 +991,11 @@ h3 {
   }
 
   .card-topline {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 
   .research-card .related-work {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
   }
 
   .earlier-project {
@@ -1012,6 +1060,16 @@ h3 {
   .work-item {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .ongoing-item {
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+  }
+
+  .ongoing-item h3 {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
 
   .timeline-item {
