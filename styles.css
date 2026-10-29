@@ -291,7 +291,7 @@ h3 {
 
 .affiliations {
   max-width: 45rem;
-  margin-bottom: 2.1rem;
+  margin-bottom: 0.3rem;
   color: var(--ink);
   font-size: 0.85rem;
   font-weight: 650;
@@ -301,6 +301,14 @@ h3 {
 .affiliations span {
   margin-inline: 0.28rem;
   color: var(--accent);
+}
+
+.collaboration-note {
+  margin-bottom: 2.1rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .hero-actions {
@@ -730,7 +738,20 @@ h3 {
 }
 
 .timeline {
-  margin-bottom: clamp(4rem, 8vw, 7rem);
+  margin-bottom: 0;
+}
+
+.collaboration-note-experience {
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+
+.collaboration-note-experience span {
+  display: inline-block;
+  margin-right: 0.8rem;
+  font-weight: 650;
 }
 
 .timeline-item {

@@ -13,6 +13,7 @@
 - The user confirmed the three named works are not under double-blind anonymity and may be shown publicly as `Under Review`.
 - The 2026-10-29 revision uses the user's newly attached outdoor portrait, copied byte-for-byte to `assets/profile.jpg` (1279x1708; SHA-256 `54a949ecb5c4f880a471e55d63d1285e9e333de037afbe76e29d5795c0d75fce`). Display framing is CSS-only; the portrait and stylesheet use a version query for cache refresh.
 - Eight Node contract tests pass. The latest page was visually checked at desktop, 390px and 320px widths; the narrow-screen document has no horizontal overflow and the new image loads correctly.
+- Release verification (2026-10-29): public content commit `d1c60f2680b4a60fb9caaf12bb89406639bbcdc4` is Pages `built`. Live HTML confirms the four-paper order, three Under Review plus one In Revision status, author labels, PCCC-RL contribution copy, soul-agent wording, Vidu, title-only projects and compact education. Public portrait SHA-256 matches the attached original; stylesheet HTTP 200. This verification receipt is a local handoff update.
 
 ## Key decisions
 
@@ -26,6 +27,8 @@
 - On 2026-10-29, the user requested that CASIA internship supervision be omitted. All current homepage mentions of Ran He have been removed; Feifei Zhao is the user-supplied fallback only if naming a CASIA mentor becomes necessary, and is not currently displayed.
 - Keep the introduction research-first: use `AI Researcher`, omit undergraduate status and USTB from the hero, portrait caption, About lead, and search description. Retain education as one compact bottom row (`USTB · B.Eng. in Intelligent Construction`, 2023–2027 expected), without a navigation item, large headline, or school emblem.
 - The latest user-edited About introduces research roles/collaborations rather than named mentors. It includes CASIA long-term research, Westlake summer research in 2026, Shanghai AI Lab collaboration, and current Vidu collaboration.
+- Latest affiliation correction (2026-10-29): CASIA research is `agent safety and long-horizon agents`; LINs Lab summer research is `long-horizon agents and recursive self-improvement`. Keep these topics attached to the correct institutions in both About and Experience.
+- Vidu is a research collaboration, not an employment entry. Keep `CASIA · LINs Lab, Westlake University` as the main hero affiliation line, followed by a smaller muted `Research collaboration with Vidu`. Remove the large Vidu/ShengShu timeline heading and use a compact collaboration note after the institutional timeline. The company name ShengShu is no longer displayed on the page.
 
 ## Next steps
 
