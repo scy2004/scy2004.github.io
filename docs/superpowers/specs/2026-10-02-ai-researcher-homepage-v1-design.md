@@ -1,5 +1,7 @@
 # Chengyi Sun AI Research Homepage V1 Design
 
+> Updated 2026-10-29: omit the CASIA mentor name, lead with AI research rather than undergraduate status, and keep education as one compact bottom row.
+
 ## 1. Goal
 
 Create the first public version of Chengyi Sun's AI research homepage at `https://scy2004.github.io/`.
@@ -12,7 +14,7 @@ The primary audience is AI researchers, potential supervisors, research collabor
 
 The page should communicate:
 
-> Chengyi Sun is an undergraduate AI researcher studying recursive self-improvement and long-horizon agents, with broader interests in agentic multimodal interaction and vision-language model post-training.
+> Chengyi Sun is an AI researcher studying recursive self-improvement and long-horizon agents, with broader interests in agentic multimodal interaction and vision-language model post-training.
 
 The main positioning sentence will be:
 
@@ -23,13 +25,13 @@ The main positioning sentence will be:
 The following information is approved for the first public version:
 
 - Name: `Chengyi Sun` and `孙成一`.
-- Identity: undergraduate student and AI researcher.
+- Public-facing identity: AI researcher; degree information is confined to the compact education row.
 - Location: Beijing, China.
 - University and research affiliations:
   - University of Science and Technology Beijing (USTB).
   - Institute of Automation, Chinese Academy of Sciences (CASIA).
   - Learning and INference Systems Laboratory (LINs Lab), Westlake University.
-- Advisors: Prof. Tao Lin and Prof. Ran He.
+- Mentor: Prof. Tao Lin, associated specifically with LINs Lab. Omit the CASIA mentor name.
 - Email: `shengminmail@163.com`.
 - GitHub: `https://github.com/scy2004`.
 - The user-supplied portrait photo.
@@ -53,7 +55,7 @@ The first version is a single long-scroll English page. The Chinese name appears
 
 The navigation is:
 
-`About · Research · Selected Work · Experience · Education`
+`About · Research · Selected Work · Experience`
 
 ### 4.1 Header and navigation
 
@@ -71,9 +73,9 @@ Content:
 - Eyebrow: `AI Researcher · Beijing, China`
 - Heading: `Chengyi Sun`
 - Secondary name: `孙成一`
-- Role: `Undergraduate researcher working on recursive self-improvement and long-horizon agents.`
+- Role: `AI researcher working on recursive self-improvement and long-horizon agents.`
 - Positioning sentence from Section 2.
-- Affiliation line: `University of Science and Technology Beijing · CASIA · LINs Lab, Westlake University`
+- Affiliation line: `CASIA · LINs Lab, Westlake University`
 - Links: `Email` and `GitHub` only.
 
 The portrait is displayed without generative alteration. CSS crops it to a restrained editorial frame with `object-fit: cover`; the original image remains the source asset.
@@ -82,9 +84,9 @@ The portrait is displayed without generative alteration. CSS crops it to a restr
 
 Use the following English copy:
 
-> I am an undergraduate student at the University of Science and Technology Beijing. My research spans recursive self-improvement, long-horizon agents, real-time multimodal interaction, and vision-language model post-training. I am especially interested in systems that improve not only what an agent can do, but also how it decides when to continue, verify, revise direction, or stop.
+> My research spans recursive self-improvement, long-horizon agents, real-time multimodal interaction, and vision-language model post-training. I am especially interested in systems that improve not only what an agent can do, but also how it decides when to continue, verify, revise direction, or stop.
 
-> I conduct research with the Learning and INference Systems Laboratory at Westlake University and the Institute of Automation, Chinese Academy of Sciences, under the guidance of Prof. Tao Lin and Prof. Ran He. My broader goal is to study how foundation models, simulators, and research infrastructure can support the continual improvement of AI systems.
+> I conduct research with LINs Lab at Westlake University under the guidance of Prof. Tao Lin, and with the Institute of Automation, Chinese Academy of Sciences. My broader goal is to study how foundation models, simulators, and research infrastructure can support the continual improvement of AI systems.
 
 No unsupported publication count, citation count, or broad capability claim is shown.
 
@@ -158,7 +160,7 @@ Use a compact timeline with only verified roles.
 
 - Role: `Research Intern`.
 - Time: `Nov 2025 - Present`.
-- Advisor: `Prof. Ran He`.
+- Advisor: omitted from the public page.
 - Focus: `Long-horizon agents, multimodal agents, and agent evaluation.`
 
 #### Shanghai AI Laboratory
@@ -181,11 +183,10 @@ Include one restrained project card to add verified depth without diluting the c
 
 ### 4.8 Education
 
-Display one concise entry:
+Display one compact bottom row, without a navigation link, large heading, or school emblem:
 
-- `B.Eng. in Intelligent Construction`
-- `University of Science and Technology Beijing`
-- `Sep 2023 - Jun 2027 (expected)`
+- `USTB · B.Eng. in Intelligent Construction`
+- `2023 — 2027 (expected)`
 
 GPA, rank, thesis, and coursework are omitted because no values were supplied.
 

@@ -23,6 +23,9 @@
 - Omit visible empty sections and private resume information.
 - Do not include a resume download, phone number, Scholar placeholder, LinkedIn, news, awards, or research notes in V1.
 - Keep custom-domain binding for a later phase.
+- On 2026-10-29, the user requested that CASIA internship supervision be omitted. All current homepage mentions of Ran He have been removed; Feifei Zhao is the user-supplied fallback only if naming a CASIA mentor becomes necessary, and is not currently displayed.
+- Keep the introduction research-first: use `AI Researcher`, omit undergraduate status and USTB from the hero, portrait caption, About lead, and search description. Retain education as one compact bottom row (`USTB · B.Eng. in Intelligent Construction`, 2023–2027 expected), without a navigation item, large headline, or school emblem.
+- Prof. Tao Lin remains identified only with LINs Lab, Westlake University.
 
 ## Next steps
 

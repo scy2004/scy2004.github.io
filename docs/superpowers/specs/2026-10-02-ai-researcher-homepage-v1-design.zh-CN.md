@@ -2,6 +2,8 @@
 
 > 本文件是英文设计规格的完整中文审阅版。你可以直接在本文件中提出修改；后续以你确认后的中文版本为准，并将修改同步到英文规格和网站实现。
 
+> 2026-10-29 更新：中科院实习暂不展示导师姓名；首页以 AI 研究为核心，本科身份与本科院校缩略为页面底部的一行教育信息。
+
 ## 1. 目标
 
 在 `https://scy2004.github.io/` 创建孙成一 AI 研究者个人主页的首个公开版本。
@@ -14,7 +16,7 @@
 
 页面需要传达以下核心信息：
 
-> 孙成一是一名研究递归式自我改进和长程智能体的本科生 AI 研究者，同时关注智能体化多模态交互和视觉语言模型后训练。
+> 孙成一是一名研究递归式自我改进和长程智能体的 AI 研究者，同时关注智能体化多模态交互和视觉语言模型后训练。
 
 主页的核心定位句为：
 
@@ -29,13 +31,13 @@
 第一版允许公开以下信息：
 
 - 姓名：`Chengyi Sun` 和 `孙成一`。
-- 身份：本科生和 AI 研究者。
+- 页面身份：AI 研究者；学位信息仅在底部的简短教育记录中保留。
 - 所在地：北京，中国。
 - 学校与研究机构：
   - 北京科技大学（University of Science and Technology Beijing，USTB）。
   - 中国科学院自动化研究所（Institute of Automation, Chinese Academy of Sciences，CASIA）。
   - 西湖大学学习与推理系统实验室（Learning and INference Systems Laboratory，LINs Lab）。
-- 导师：林涛教授（Prof. Tao Lin）和赫然教授（Prof. Ran He）。
+- 研究指导：林涛教授（Prof. Tao Lin），仅关联西湖大学 LINs Lab；中科院导师姓名暂不展示。
 - 邮箱：`shengminmail@163.com`。
 - GitHub：`https://github.com/scy2004`。
 - 用户提供的个人照片。
@@ -59,11 +61,11 @@
 
 顶部导航为：
 
-`About · Research · Selected Work · Experience · Education`
+`About · Research · Selected Work · Experience`
 
 对应含义为：
 
-`关于我 · 研究方向 · 代表性工作 · 研究经历 · 教育经历`
+`关于我 · 研究方向 · 代表性工作 · 研究经历`
 
 ### 4.1 页头与导航
 
@@ -81,9 +83,9 @@
 - 小标题：`AI Researcher · Beijing, China`
 - 主标题：`Chengyi Sun`
 - 中文姓名：`孙成一`
-- 身份描述：`Undergraduate researcher working on recursive self-improvement and long-horizon agents.`
+- 身份描述：`AI researcher working on recursive self-improvement and long-horizon agents.`
 - 第 2 节中的核心定位句。
-- 机构信息：`University of Science and Technology Beijing · CASIA · LINs Lab, Westlake University`
+- 机构信息：`CASIA · LINs Lab, Westlake University`
 - 链接：仅显示 `Email` 和 `GitHub`。
 
 个人照片不进行生成式修改。页面通过 CSS 和 `object-fit: cover` 将原图裁切到克制的编辑式相框中，原始照片仍作为源文件保存。
@@ -92,15 +94,15 @@
 
 网站使用以下英文文案：
 
-> I am an undergraduate student at the University of Science and Technology Beijing. My research spans recursive self-improvement, long-horizon agents, real-time multimodal interaction, and vision-language model post-training. I am especially interested in systems that improve not only what an agent can do, but also how it decides when to continue, verify, revise direction, or stop.
+> My research spans recursive self-improvement, long-horizon agents, real-time multimodal interaction, and vision-language model post-training. I am especially interested in systems that improve not only what an agent can do, but also how it decides when to continue, verify, revise direction, or stop.
 
-> I conduct research with the Learning and INference Systems Laboratory at Westlake University and the Institute of Automation, Chinese Academy of Sciences, under the guidance of Prof. Tao Lin and Prof. Ran He. My broader goal is to study how foundation models, simulators, and research infrastructure can support the continual improvement of AI systems.
+> I conduct research with LINs Lab at Westlake University under the guidance of Prof. Tao Lin, and with the Institute of Automation, Chinese Academy of Sciences. My broader goal is to study how foundation models, simulators, and research infrastructure can support the continual improvement of AI systems.
 
 中文含义为：
 
-> 我是北京科技大学本科生。我的研究涵盖递归式自我改进、长程智能体、实时多模态交互和视觉语言模型后训练。我尤其关注这样一类系统：它们不仅能够提升智能体的执行能力，还能改进智能体关于何时继续、验证、调整方向或停止的判断。
+> 我的研究涵盖递归式自我改进、长程智能体、实时多模态交互和视觉语言模型后训练。我尤其关注这样一类系统：它们不仅能够提升智能体的执行能力，还能改进智能体关于何时继续、验证、调整方向或停止的判断。
 
-> 我目前在西湖大学学习与推理系统实验室和中国科学院自动化研究所开展研究，并接受林涛教授和赫然教授的指导。我的长期目标是研究基座模型、模拟器和研究基础设施如何共同支持 AI 系统的持续改进。
+> 我在西湖大学 LINs Lab 接受林涛教授指导，并在中国科学院自动化研究所开展研究。我的长期目标是研究基座模型、模拟器和研究基础设施如何共同支持 AI 系统的持续改进。
 
 页面不展示缺乏依据的论文数量、引用数量或宽泛能力声明。
 
@@ -202,7 +204,7 @@
 - 英文名称：`Institute of Automation, Chinese Academy of Sciences`。
 - 角色：`Research Intern`。
 - 时间：`Nov 2025 - Present`。
-- 导师：`Prof. Ran He`。
+- 导师姓名：暂不展示。
 - 研究重点：`Long-horizon agents, multimodal agents, and agent evaluation.`
 - 中文含义：长程智能体、多模态智能体和智能体评估。
 
@@ -230,11 +232,10 @@ LINs Lab 的关系显示在首屏和“关于我”部分。由于目前没有�
 
 ### 4.8 教育经历
 
-只展示一条简洁记录：
+仅在页面底部用一行小字展示，不设置导航入口、大标题或学校标识：
 
-- `B.Eng. in Intelligent Construction`
-- `University of Science and Technology Beijing`
-- `Sep 2023 - Jun 2027 (expected)`
+- `USTB · B.Eng. in Intelligent Construction`
+- `2023 — 2027 (expected)`
 
 对应中文为：
 

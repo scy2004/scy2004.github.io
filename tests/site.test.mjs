@@ -17,20 +17,21 @@ test("publishes the approved identity and contact links", () => {
   assert.match(html, /AI Researcher · Beijing, China/);
   assert.match(html, /mailto:shengminmail@163\.com/);
   assert.match(html, /https:\/\/github\.com\/scy2004/);
-  assert.match(html, /University of Science and Technology Beijing/);
+  assert.match(html, /USTB/);
   assert.match(html, /Institute of Automation, Chinese Academy of Sciences/);
   assert.match(html, /LINs Lab, Westlake University/);
 });
 
 test("contains every approved section and working in-page navigation target", () => {
   const html = read("index.html");
-  const requiredIds = ["about", "research", "work", "experience", "education"];
+  const requiredIds = ["about", "research", "work", "experience"];
 
   for (const id of requiredIds) {
     assert.match(html, new RegExp(`href="#${id}"`));
     assert.match(html, new RegExp(`id="${id}"`));
   }
 
+  assert.match(html, /id="education"/);
   assert.match(html, /<main[^>]*id="main-content"/i);
   assert.match(html, /class="[^"]*skip-link[^"]*"[^>]*href="#main-content"/i);
 });
