@@ -291,7 +291,7 @@ h3 {
 
 .affiliations {
   max-width: 45rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 2.1rem;
   color: var(--ink);
   font-size: 0.85rem;
   font-weight: 650;
@@ -301,14 +301,6 @@ h3 {
 .affiliations span {
   margin-inline: 0.28rem;
   color: var(--accent);
-}
-
-.collaboration-note {
-  margin-bottom: 2.1rem;
-  color: var(--muted);
-  font-size: 0.8rem;
-  font-weight: 400;
-  line-height: 1.6;
 }
 
 .hero-actions {

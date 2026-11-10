@@ -20,7 +20,7 @@ test("publishes the approved identity and contact links", () => {
   assert.match(html, /USTB/);
   assert.match(html, /Institute of Automation, Chinese Academy of Sciences/);
   assert.match(html, /LINs Lab, Westlake University/);
-  assert.match(html, /Vidu/);
+  assert.doesNotMatch(html, /\bVidu\b/i);
 });
 
 test("contains every approved section and working in-page navigation target", () => {
